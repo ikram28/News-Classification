@@ -19,6 +19,7 @@ The authors followed a well-defined research methodology to develop their approa
  The dataset used in this study consisted of two main sources: the 20Newsgroup dataset and the BBC dataset:
  
 •	The BBC dataset comprised 2225 news texts collected between 2004 and 2005, covering five topics: business, entertainment, politics, sports, and technology. This dataset provided a diverse range of news articles for evaluation. 
+
 •	The 20Newsgroup dataset contained 19997 news articles gathered from the internet, classified into 20 distinct classes. Only the subject and body of each text were utilized in the study. The authors focused on five specific classes only: Graphics, Forsale, Sport.baseball, Religion.christian, and Politics.guns. This subset of the consists of 5070 news articles.
 
 ### b. Text preprocessing: 
@@ -40,9 +41,12 @@ The authors evaluate the performance of the proposed approach using various metr
   ![Diagramme vierge (12)](https://github.com/ikram28/News-Classification/assets/86806466/0a7b6443-9bfe-48c2-b131-08c40817c0c6)
   
   <h2>5. Techniques :</h2>
+  
 In the context of our project, we employed the same techniques described in the original article. We also utilized a similar dataset and followed the data preprocessing methodology outlined in the article. We implemented the TF-IDF algorithm to compute the feature vectors and utilized the SVM classifier to train our classification model.
 Here we explain how each step was implemented:
+
 ### a. Data Preprocessing:
+
    - Lowercasing: The text was transformed to lowercase using the `lower()` method.
    - Punctuation Removal: Punctuation marks were removed from the text using regular expressions (`re.sub()`) with the pattern `[^\w\s]`. This pattern matches any character that is not a word character or whitespace and replaces it with an empty string.
    - Date Removal: Dates were removed from the text using the same `re.sub()` method, but this time with the pattern `\d+`, which matches one or more digits.
