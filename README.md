@@ -112,7 +112,7 @@ In our implementation, we evaluated the performance of the classification models
 - F1-Score: The F1-scores, which provide a balanced measure of precision and recall, were consistently high, ranging from 0.89 to 0.92. This suggests that the model achieved a good balance between precision and recall in classifying the news articles.
 - Accuracy: The overall accuracy of the model on the 20 Newsgroups dataset was 91%, indicating that the model correctly classified 91% of the news articles.
   
-  ![image](https://github.com/ikram28/News-Classification/assets/86806466/6fc9541e-7ead-4b9d-8bec-8b0d176e0bd9)
+  ![image](https://github.com/ikram28/News-Classification/assets/86806466/a825082b-f6d9-4b21-af21-b66676f7263b)
 
 
 
