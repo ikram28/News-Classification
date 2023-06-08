@@ -1,5 +1,26 @@
 # Project Report on Reproduction of the Work Presented in the Article "A Novel Text Mining Approach Based on TF-IDF and Support Vector Machine for News Classification"
 
+**<h2>Table of contents</h2>**
+
+   [1.Introduction](#Introduction)
+   
+   [2. Problem Statement and Objectives of the Paper](#Problem-Statement-and-Objectives-of-the-Paper)
+  
+   [3. The state of the art on which the work is based](#The-state-of-the-art-on-which-the-work-is-based)
+
+   [4. The methodology followed in the article](#The-methodology-followed-in-the-article)
+
+   [5. Techniques](#Techniques)
+
+   [6.	Results obtained with our implementation](#Results-obtained-with-our-implementation)
+
+   [7. Comparison of Results](#Comparison-of-Results)
+   
+   [8. Critiques of the work](#Critiques-of-the-work)
+   
+   [9. Conclusion](#Conclusion)
+   
+
 <h2>1. Introduction:</h2>
 In this report, we present our project aiming to perform work similar to that presented in the article titled "A Novel Text Mining Approach Based on TF-IDF and Support Vector Machine for News Classification". We begin by defining the problem statement and objectives addressed in the original article. Next, we discuss the related state-of-the-art upon which the work is based, followed by a description of the research methodology we followed. We also explain the techniques used to reproduce the approach described in the article. Subsequently, we present the results obtained through our implementation and compare them with the results presented in the original article. Finally, we provide constructive critiques of the work and conclude with the main findings of our project.
 
