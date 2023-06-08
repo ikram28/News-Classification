@@ -14,22 +14,27 @@ These previous studies have highlighted the advantages and limitations of differ
 <h2>4. The methodology followed in the article:</h2>
 The authors followed a well-defined research methodology to develop their approach.
 
- ###a. Data collection: 
+ ### a. Data collection: 
+ 
  The dataset used in this study consisted of two main sources: the 20Newsgroup dataset and the BBC dataset:
  
 •	The BBC dataset comprised 2225 news texts collected between 2004 and 2005, covering five topics: business, entertainment, politics, sports, and technology. This dataset provided a diverse range of news articles for evaluation. 
 •	The 20Newsgroup dataset contained 19997 news articles gathered from the internet, classified into 20 distinct classes. Only the subject and body of each text were utilized in the study. The authors focused on five specific classes only: Graphics, Forsale, Sport.baseball, Religion.christian, and Politics.guns. This subset of the consists of 5070 news articles.
 
-###b. Text preprocessing: 
+### b. Text preprocessing: 
+
 The authors preprocess the raw text data by converting all words to lowercase, tokenizing and removing stop words.
 
-###c. Feature selection: 
+### c. Feature selection: 
+
 The authors use TF-IDF to select the most important features (words) in the text data for classification. 
 
-###d. Classification: 
+### d. Classification: 
+
 The authors use Support Vector Machine (SVM) to classify news headlines into different groups based on their content. 
 
-###e. Evaluation: 
+### e. Evaluation: 
+
 The authors evaluate the performance of the proposed approach using various metrics such as precision, recall, and F1-score. 
   
   ![Diagramme vierge (12)](https://github.com/ikram28/News-Classification/assets/86806466/0a7b6443-9bfe-48c2-b131-08c40817c0c6)
