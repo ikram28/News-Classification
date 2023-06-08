@@ -3,23 +3,29 @@
 <h2>1. Introduction:</h2>
 In this report, we present our project aiming to perform work similar to that presented in the article titled "A Novel Text Mining Approach Based on TF-IDF and Support Vector Machine for News Classification". We begin by defining the problem statement and objectives addressed in the original article. Next, we discuss the related state-of-the-art upon which the work is based, followed by a description of the research methodology we followed. We also explain the techniques used to reproduce the approach described in the article. Subsequently, we present the results obtained through our implementation and compare them with the results presented in the original article. Finally, we provide constructive critiques of the work and conclude with the main findings of our project.
 
-<h2>2. Problem Statement and Objectives of the Paper</h2>:
+<h2>2. Problem Statement and Objectives of the Paper</h2>
 The original article focuses on addressing the challenge of automatically classifying news headlines by their content into distinct groups. The main goal of the study is to introduce a unique text mining approach for news classification utilizing TF-IDF and Support Vector Machine. This approach aims to effectively categorize news headlines and enable users to identify the most prominent news group within a specific country at any given moment. To evaluate the proposed approach, the study utilizes two datasets from BBC and five groups of 20Newsgroup datasets.
 
-<h2>3. The state of the art on which the work is based:</h2>:
+<h2>3. The state of the art on which the work is based:</h2>
 Before proposing their approach, the authors of the article studied the state of the art in the field of text classification. In fact, the article refers to several previous studies in the field of text classification. One study used the TF-IDF algorithm to classify news articles in Bahasa Indonesia, which calculates the weight of each word based on its repetition in the text and the number of files in which it appears. Another study made modifications to the Bayesian algorithm to improve its efficiency in classifying spam messages. A supervised queue selection method was proposed to enhance the efficiency of text classification by assigning a score to each word based on its similarity to each class. SVMs were used in another study to classify human emotions, demonstrating their effectiveness in emotion recognition in sentences. Additionally, a news customization system based on SVM was proposed to recommend favorite articles to users based on their predefined interests. Lastly, a hybrid SVM-NN method combining the nearest neighbor algorithm and SVM classifier was implemented to minimize the impact of parameters on classification accuracy.
 
 These previous studies have highlighted the advantages and limitations of different approaches used in text classification. They have also demonstrated the potential benefits of combining techniques such as TF-IDF and SVM to improve the precision and efficiency of news classification. It is on this basis that the authors developed their innovative approach, aiming to leverage the semantic information of words and phrases in the text for more accurate classification of news headlines.
 
 <h2>4. The methodology followed in the article:</h2>
 The authors followed a well-defined research methodology to develop their approach.
- 1. **Data collection**: The dataset used in this study consisted of two main sources: the 20Newsgroup dataset and the BBC dataset. 
+
+ **a. Data collection**: The dataset used in this study consisted of two main sources: the 20Newsgroup dataset and the BBC dataset:
+ 
 •	The BBC dataset comprised 2225 news texts collected between 2004 and 2005, covering five topics: business, entertainment, politics, sports, and technology. This dataset provided a diverse range of news articles for evaluation. 
 •	The 20Newsgroup dataset contained 19997 news articles gathered from the internet, classified into 20 distinct classes. Only the subject and body of each text were utilized in the study. The authors focused on five specific classes only: Graphics, Forsale, Sport.baseball, Religion.christian, and Politics.guns. This subset of the consists of 5070 news articles.
-2.**Text preprocessing**: The authors preprocess the raw text data by converting all words to lowercase, tokenizing and removing stop words.
-3.	**Feature selection**: The authors use TF-IDF to select the most important features (words) in the text data for classification. 
-4.	**Classification**: The authors use Support Vector Machine (SVM) to classify news headlines into different groups based on their content. 
-5.	**Evaluation**: The authors evaluate the performance of the proposed approach using various metrics such as precision, recall, and F1-score. 
+
+**2. Text preprocessing**: The authors preprocess the raw text data by converting all words to lowercase, tokenizing and removing stop words.
+
+**3. Feature selection**: The authors use TF-IDF to select the most important features (words) in the text data for classification. 
+
+**4. Classification**: The authors use Support Vector Machine (SVM) to classify news headlines into different groups based on their content. 
+
+**5. Evaluation**: The authors evaluate the performance of the proposed approach using various metrics such as precision, recall, and F1-score. 
   
   ![Diagramme vierge (12)](https://github.com/ikram28/News-Classification/assets/86806466/0a7b6443-9bfe-48c2-b131-08c40817c0c6)
   
