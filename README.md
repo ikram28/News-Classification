@@ -72,6 +72,8 @@ Here we explain how each step was implemented:
 <h2>6.	Results obtained with our implementation:</h2>
 In our implementation, we evaluated the performance of the classification models on two datasets: BBC and 20 Newsgroups. The results obtained are as follows:
 
+
+
 **BBC Dataset:**
 
 - Precision: The precision values for each class in the BBC dataset were high, ranging from 0.93 to 0.99. This indicates that the model had a high level of accuracy in predicting the correct class for each news article.
