@@ -61,7 +61,7 @@ The authors evaluate the performance of the proposed approach using various metr
   
   ![Diagramme vierge (12)](https://github.com/ikram28/News-Classification/assets/86806466/0a7b6443-9bfe-48c2-b131-08c40817c0c6)
   
-  <h2>Techniques :</h2>
+<h2>Techniques:</h2>
   
 In the context of our project, we employed the same techniques described in the original article. We also utilized a similar dataset and followed the data preprocessing methodology outlined in the article. We implemented the TF-IDF algorithm to compute the feature vectors and utilized the SVM classifier to train our classification model.
 Here we explain how each step was implemented:
@@ -116,7 +116,7 @@ In our implementation, we evaluated the performance of the classification models
 
 
 
-<h2>Comparison of Results: </h2>
+<h2>Comparison of Results:</h2>
 
 Based on the obtained results, a comparison can be made between the precision values achieved in this implementation and those reported in the referenced article. For the BBC dataset, the precision achieved in this implementation was 0.9668, which closely aligns with the precision of 97.84% (0.9784) reported in the article. This indicates that the implemented approach performs at a similar level of precision in classifying news articles into categories such as business, entertainment, politics, sport, and tech.
 
