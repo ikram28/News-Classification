@@ -18,9 +18,9 @@ The authors followed a well-defined research methodology to develop their approa
  
  The dataset used in this study consisted of two main sources: the 20Newsgroup dataset and the BBC dataset:
  
-•	The BBC dataset comprised 2225 news texts collected between 2004 and 2005, covering five topics: business, entertainment, politics, sports, and technology. This dataset provided a diverse range of news articles for evaluation. 
+- The BBC dataset comprised 2225 news texts collected between 2004 and 2005, covering five topics: business, entertainment, politics, sports, and technology. This dataset provided a diverse range of news articles for evaluation. 
 
-•	The 20Newsgroup dataset contained 19997 news articles gathered from the internet, classified into 20 distinct classes. Only the subject and body of each text were utilized in the study. The authors focused on five specific classes only: Graphics, Forsale, Sport.baseball, Religion.christian, and Politics.guns. This subset of the consists of 5070 news articles.
+- The 20Newsgroup dataset contained 19997 news articles gathered from the internet, classified into 20 distinct classes. Only the subject and body of each text were utilized in the study. The authors focused on five specific classes only: Graphics, Forsale, Sport.baseball, Religion.christian, and Politics.guns. This subset of the consists of 5070 news articles.
 
 ### b. Text preprocessing: 
 
@@ -74,26 +74,26 @@ In our implementation, we evaluated the performance of the classification models
 
 **BBC Dataset:**
 
-•	Precision: The precision values for each class in the BBC dataset were high, ranging from 0.93 to 0.99. This indicates that the model had a high level of accuracy in predicting the correct class for each news article.
-•	Recall: The recall values were also high, indicating that the model effectively captured a high proportion of the relevant instances for each class.
-•	F1-Score: The F1-scores, which consider both precision and recall, were also excellent, ranging from 0.95 to 0.99. This demonstrates a balanced performance of the model in terms of both precision and recall.
-•	Accuracy: The overall accuracy of the model on the BBC dataset was 97%, indicating that the model correctly classified 97% of the news articles.
+- Precision: The precision values for each class in the BBC dataset were high, ranging from 0.93 to 0.99. This indicates that the model had a high level of accuracy in predicting the correct class for each news article.
+- Recall: The recall values were also high, indicating that the model effectively captured a high proportion of the relevant instances for each class.
+- F1-Score: The F1-scores, which consider both precision and recall, were also excellent, ranging from 0.95 to 0.99. This demonstrates a balanced performance of the model in terms of both precision and recall.
+- Accuracy: The overall accuracy of the model on the BBC dataset was 97%, indicating that the model correctly classified 97% of the news articles.
   
   ![image](https://github.com/ikram28/News-Classification/assets/86806466/6bd84043-32c1-41fd-bfc0-b5e416b59fd0)
 
   
 **20 Newsgroups Dataset:**
 
-•	Precision: The precision values for each class in the 20 Newsgroups dataset were also quite good, ranging from 0.86 to 0.97. This indicates that the model achieved a high level of precision in classifying the news articles into their respective categories.
-•	Recall: The recall values were also high, indicating that the model effectively captured a high proportion of the relevant instances for each class in the dataset.
-•	F1-Score: The F1-scores, which provide a balanced measure of precision and recall, were consistently high, ranging from 0.89 to 0.92. This suggests that the model achieved a good balance between precision and recall in classifying the news articles.
-•	Accuracy: The overall accuracy of the model on the 20 Newsgroups dataset was 91%, indicating that the model correctly classified 91% of the news articles.
+- Precision: The precision values for each class in the 20 Newsgroups dataset were also quite good, ranging from 0.86 to 0.97. This indicates that the model achieved a high level of precision in classifying the news articles into their respective categories.
+- Recall: The recall values were also high, indicating that the model effectively captured a high proportion of the relevant instances for each class in the dataset.
+- F1-Score: The F1-scores, which provide a balanced measure of precision and recall, were consistently high, ranging from 0.89 to 0.92. This suggests that the model achieved a good balance between precision and recall in classifying the news articles.
+- Accuracy: The overall accuracy of the model on the 20 Newsgroups dataset was 91%, indicating that the model correctly classified 91% of the news articles.
   
   ![image](https://github.com/ikram28/News-Classification/assets/86806466/6fc9541e-7ead-4b9d-8bec-8b0d176e0bd9)
 
 
 
-<h2>7. Comparison of Results: <\h2>
+<h2>7. Comparison of Results: </h2>
 
 Based on the obtained results, a comparison can be made between the precision values achieved in this implementation and those reported in the referenced article. For the BBC dataset, the precision achieved in this implementation was 0.9668, which closely aligns with the precision of 97.84% (0.9784) reported in the article. This indicates that the implemented approach performs at a similar level of precision in classifying news articles into categories such as business, entertainment, politics, sport, and tech.
 
