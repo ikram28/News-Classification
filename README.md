@@ -4,7 +4,7 @@
 
    [1.Introduction](#Introduction)
    
-   [2. Problem Statement and Objectives of the Paper](#2.-Problem-Statement-and-Objectives-of-the-Paper)
+   [Problem Statement and Objectives of the Paper](#Problem-Statement-and-Objectives-of-the-Paper)
   
    [3. The state of the art on which the work is based](#The-state-of-the-art-on-which-the-work-is-based)
 
